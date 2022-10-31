@@ -2,6 +2,42 @@
 # See: https://circleci.com/docs/2.0/configuration-reference
 version: 2.1
 
+parameters:
+  image-tag:
+    type: string
+    default: "current"
+  workingdir:
+    type: string
+    default: "~/main"
+  test3:
+    type: string
+    default: "test3"
+  test4:
+    type: string
+    default: "test4"
+  test5:
+    type: string
+    default: "test5"
+  test6:
+    type: string
+    default: "test6"
+  test7:
+    type: string
+    default: "test7"
+  test8:
+    type: string
+    default: "test8"
+  test9:
+    type: string
+    default: "test9"
+  test10:
+    type: string
+    default: "test10"
+  test11:
+    type: string
+    default: "tes11"
+
+
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
